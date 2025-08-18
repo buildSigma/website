@@ -41,7 +41,7 @@ const AboutUs = () => {
       <div className="max-w-6xl mx-auto text-center mb-16">
         <h2 className="text-4xl font-bold mb-4">Why Choose Us</h2>
         <p className="text-gray-300 text-lg">
-          Innovative, Reliable, and Expert-Driven Solutions to Elevate your Business.
+          Innovative, Reliable, andd Expert-Driven Solutions to Elevate your Business.
         </p>
       </div>
 
