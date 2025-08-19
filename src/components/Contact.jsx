@@ -25,13 +25,38 @@ const Contact = () => {
   return (
     <section className="py-32 px-6 bg-black text-white">
       <Helmet>
-        <title>Build Sigma</title>
-        <meta
-          name="description"
-          content="Contact BuildSigma for IT consulting, web & mobile development, AI solutions, and more. Get in touch with our expert team today."
-        />
-        <link rel="canonical" href="https://www.buildsigma.com/contact" />
-      </Helmet>
+  {/* Title for SEO */}
+  <title>Contact BuildSigma | IT Consulting & Web Solutions Partner</title>
+
+  {/* Meta Description */}
+  <meta
+    name="description"
+    content="Get in touch with BuildSigma for expert IT consulting, web & mobile development, AI solutions, and cloud services. Connect with our team today."
+  />
+
+  {/* Canonical URL */}
+  <link rel="canonical" href="https://www.buildsigma.com/contact" />
+
+  {/* Open Graph Tags for Social Sharing */}
+  <meta property="og:title" content="Contact BuildSigma | IT Consulting & Web Solutions Partner" />
+  <meta
+    property="og:description"
+    content="Reach out to BuildSigma for IT consulting, web & mobile app development, cloud migration, and AI solutions. Let's grow your business together."
+  />
+  <meta property="og:url" content="https://www.buildsigma.com/contact" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://www.buildsigma.com/assets/buildsigma-contact-og.jpg" />
+
+  {/* Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Contact BuildSigma | IT Consulting & Web Solutions Partner" />
+  <meta
+    name="twitter:description"
+    content="Contact BuildSigma for IT consulting, custom software, AI, and cloud services. Expert support to grow your business."
+  />
+  <meta name="twitter:image" content="https://www.buildsigma.com/assets/buildsigma-contact-og.jpg" />
+</Helmet>
+
 
       <h2 className="text-4xl font-bold text-center mb-6 text-white">
         Get in Touch

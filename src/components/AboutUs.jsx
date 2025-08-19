@@ -30,13 +30,23 @@ const AboutUs = () => {
     <section className="py-23 px-6 bg-black text-white" id="aboutus">
       {/* SEO Metadata */}
       <Helmet>
-        <title>About BuildSigma | Expert Team & Innovative Solutions</title>
-        <meta
-          name="description"
-          content="Learn why BuildSigma is the trusted partner for innovative technology solutions. Expert team, 24/7 support, and strategies for exponential business growth."
-        />
-        <link rel="canonical" href="https://www.buildsigma.com/aboutus" />
-      </Helmet>
+  <title>About BuildSigma | Web Solutions Consultancy & IT Experts</title>
+  <meta
+    name="description"
+    content="BuildSigma is a trusted web solutions consultancy offering innovative IT services, expert teams, and 24/7 support to drive business growth and digital transformation."
+  />
+  <link rel="canonical" href="https://www.buildsigma.com/aboutus" />
+  <meta 
+    name="keywords" 
+    content="BuildSigma, web solutions consultancy, IT services, business growth, expert team, 24/7 support, digital transformation, innovative technology" 
+  />
+  <meta property="og:title" content="About BuildSigma | Web Solutions Consultancy & IT Experts" />
+  <meta property="og:description" content="Partner with BuildSigma for innovative IT solutions, expert consulting, and 24/7 support to accelerate business growth." />
+  <meta property="og:url" content="https://www.buildsigma.com/aboutus" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://www.buildsigma.com/assets/og-image.jpg" />
+</Helmet>
+
 
       <div className="max-w-6xl mx-auto text-center mb-16">
         <h2 className="text-4xl font-bold mb-4">Why Choose Us</h2>

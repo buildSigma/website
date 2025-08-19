@@ -39,13 +39,38 @@ const Solutions = () => {
   return (
     <section className="py-22 px-6 bg-black" id="solutions">
       <Helmet>
-        <title>Solutions | Software Development, Cloud, DevOps & Automation</title>
-        <meta
-          name="description"
-          content="Explore BuildSigma's solutions including custom software development, QA, support & maintenance, DevOps & automation, cloud migration, and business architecture."
-        />
-        <link rel="canonical" href="https://www.buildsigma.com/solutions" />
-      </Helmet>
+  {/* Title (under 60 chars) */}
+  <title>Solutions | Software Development, QA, Cloud & DevOps</title>
+
+  {/* Meta Description (150–160 chars) */}
+  <meta
+    name="description"
+    content="BuildSigma provides solutions in software development, QA, support, DevOps, automation, cloud migration, and business architecture to drive efficiency and growth."
+  />
+
+  {/* Canonical */}
+  <link rel="canonical" href="https://www.buildsigma.com/solutions" />
+
+  {/* Open Graph */}
+  <meta property="og:title" content="BuildSigma Solutions | Software, Cloud & DevOps" />
+  <meta
+    property="og:description"
+    content="Explore BuildSigma's IT solutions — custom software, QA, DevOps, automation, cloud migration, and business architecture for scalable business success."
+  />
+  <meta property="og:url" content="https://www.buildsigma.com/solutions" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://www.buildsigma.com/assets/buildsigma-solutions-og.jpg" />
+
+  {/* Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="BuildSigma Solutions | Software, Cloud & DevOps" />
+  <meta
+    name="twitter:description"
+    content="Discover BuildSigma's solutions — software development, QA, support, DevOps, automation, cloud migration & business architecture."
+  />
+  <meta name="twitter:image" content="https://www.buildsigma.com/assets/buildsigma-solutions-og.jpg" />
+</Helmet>
+
 
       <h2 className="text-4xl font-bold text-center mb-16 text-white">
         Solutions

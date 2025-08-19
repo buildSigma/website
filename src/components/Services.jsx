@@ -24,13 +24,38 @@ const Services = () => {
   return (
     <section className="relative py-32 px-6 overflow-hidden" id="services">
       <Helmet>
-        <title>Services | Web, App, AI, Cloud & Cybersecurity Solutions</title>
-        <meta
-          name="description"
-          content="Explore BuildSigma's expert services in product development, AI & automation, digital marketing, consulting, cloud solutions, and cybersecurity. Delivering innovative, scalable, and secure business solutions."
-        />
-        <link rel="canonical" href="https://www.buildsigma.com/services" />
-      </Helmet>
+  {/* Page Title */}
+  <title>Services | Web, App, AI, Cloud & Cybersecurity Solutions</title>
+
+  {/* Meta Description (SEO-friendly length: ~150–160 chars) */}
+  <meta
+    name="description"
+    content="Discover BuildSigma's IT services — web & app development, AI & automation, digital marketing, consulting, cloud solutions, and cybersecurity for modern businesses."
+  />
+
+  {/* Canonical URL */}
+  <link rel="canonical" href="https://www.buildsigma.com/services" />
+
+  {/* Open Graph (for Facebook, LinkedIn, WhatsApp) */}
+  <meta property="og:title" content="BuildSigma Services | Web, App, AI, Cloud & Cybersecurity" />
+  <meta
+    property="og:description"
+    content="From AI automation to secure cloud and cybersecurity, BuildSigma provides cutting-edge IT services to help businesses grow and scale."
+  />
+  <meta property="og:url" content="https://www.buildsigma.com/services" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://www.buildsigma.com/assets/buildsigma-services-og.jpg" />
+
+  {/* Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="BuildSigma Services | Web, App, AI, Cloud & Cybersecurity" />
+  <meta
+    name="twitter:description"
+    content="Explore BuildSigma's services: product development, AI, automation, cloud, marketing & cybersecurity — designed for growth & security."
+  />
+  <meta name="twitter:image" content="https://www.buildsigma.com/assets/buildsigma-services-og.jpg" />
+</Helmet>
+
 
       {/* Background Video */}
       <video

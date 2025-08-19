@@ -67,13 +67,38 @@ const Technologies = () => {
     <section className="py-22 bg-black text-white" id="technologies">
       {/* SEO Metadata */}
       <Helmet>
-        <title>Technologies | Web, Mobile, Database & CMS Tools</title>
-        <meta
-          name="description"
-          content="Discover the technologies used by BuildSigma, including React, Node.js, Express, Laravel, PHP, MongoDB, MySQL, WordPress, Flutter, Kotlin, Swift, and more for web, mobile, and cloud solutions."
-        />
-        <link rel="canonical" href="https://www.buildsigma.com/technologies" />
-      </Helmet>
+  {/* Title (under 60 chars, keyword-rich) */}
+  <title>Technologies | Web, Mobile, Cloud & Database Tools</title>
+
+  {/* Meta Description (150–160 chars, natural flow) */}
+  <meta
+    name="description"
+    content="BuildSigma works with leading technologies — React, Node.js, Express, Laravel, PHP, WordPress, Flutter, Kotlin, Swift, MongoDB, MySQL, PostgreSQL, and AWS."
+  />
+
+  {/* Canonical */}
+  <link rel="canonical" href="https://www.buildsigma.com/technologies" />
+
+  {/* Open Graph */}
+  <meta property="og:title" content="BuildSigma Technologies | Web, Mobile & Cloud Tools" />
+  <meta
+    property="og:description"
+    content="Explore the technologies we use: React, Node.js, Express, Laravel, PHP, WordPress, Flutter, Kotlin, Swift, MongoDB, MySQL, PostgreSQL, AWS and more."
+  />
+  <meta property="og:url" content="https://www.buildsigma.com/technologies" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://www.buildsigma.com/assets/buildsigma-technologies-og.jpg" />
+
+  {/* Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="BuildSigma Technologies | Web, Mobile & Cloud Tools" />
+  <meta
+    name="twitter:description"
+    content="Discover BuildSigma's technology stack — React, Node.js, Laravel, WordPress, Flutter, Kotlin, Swift, MongoDB, MySQL, PostgreSQL, AWS and more."
+  />
+  <meta name="twitter:image" content="https://www.buildsigma.com/assets/buildsigma-technologies-og.jpg" />
+</Helmet>
+
 
       <h2 className="text-3xl font-bold text-center mb-4">🚀 Technologies We Use</h2>
       

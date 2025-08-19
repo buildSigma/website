@@ -10,16 +10,40 @@ const Hero = () => {
     >
       {/* SEO Meta Tags */}
       <Helmet>
-        <title>BuildSigma - Empowering Digital Transformation</title>
-        <meta
-          name="description"
-          content="BuildSigma creates innovative web apps, mobile solutions, and cloud services that drive growth and efficiency for your business."
-        />
-        <link rel="canonical" href="https://www.buildsigma.com/" />
+  {/* Title for SEO */}
+  <title>BuildSigma - Empowering Digital Transformation</title>
 
-      </Helmet>
+  {/* Meta Description */}
+  <meta
+    name="description"
+    content="BuildSigma creates innovative web apps, mobile solutions, and cloud services that drive growth and efficiency for your business."
+  />
 
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">
+  {/* Canonical URL */}
+  <link rel="canonical" href="https://www.buildsigma.com/" />
+
+  {/* Open Graph (Facebook, LinkedIn, WhatsApp) */}
+  <meta property="og:title" content="BuildSigma - Empowering Digital Transformation" />
+  <meta
+    property="og:description"
+    content="BuildSigma builds modern web apps, mobile solutions, AI tools, and cloud services to help businesses scale and innovate."
+  />
+  <meta property="og:url" content="https://www.buildsigma.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://www.buildsigma.com/assets/buildsigma-home-og.jpg" />
+
+  {/* Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="BuildSigma - Empowering Digital Transformation" />
+  <meta
+    name="twitter:description"
+    content="Discover how BuildSigma helps businesses grow with web, mobile, AI, and cloud solutions designed for the digital future."
+  />
+  <meta name="twitter:image" content="https://www.buildsigma.com/assets/buildsigma-home-og.jpg" />
+</Helmet>
+
+
+      <div className="max-w-7xl ml-5 md:ml-9 mx-auto flex flex-col md:flex-row items-center gap-16">
         {/* Text Content */}
         <div className="md:w-1/2 space-y-6 order-2 md:order-1">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
