@@ -6,7 +6,7 @@ import { Helmet } from "react-helmet-async";
 const Hero = () => {
   return (
     <section
-      className="relative py-36 px-6 bg-gradient-to-r from-black via-black to-gray-900 text-white overflow-hidden"
+      className="  relative py-52 px-6 bg-gradient-to-r from-black via-black to-gray-900 text-white overflow-hidden"
     >
       {/* SEO Meta Tags */}
       <Helmet>
