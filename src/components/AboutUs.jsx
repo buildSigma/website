@@ -35,7 +35,7 @@ const AboutUs = () => {
           name="description"
           content="Learn why BuildSigma is the trusted partner for innovative technology solutions. Expert team, 24/7 support, and strategies for exponential business growth."
         />
-        <link rel="canonical" href="https://www.yourdomain.com/aboutus" />
+        <link rel="canonical" href="https://www.buildsigma.com/aboutus" />
       </Helmet>
 
       <div className="max-w-6xl mx-auto text-center mb-16">

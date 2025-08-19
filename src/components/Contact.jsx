@@ -10,7 +10,7 @@ const Contact = () => {
     const formData = new FormData(e.target);
 
     try {
-      await fetch("https://formsubmit.co/work@buildsigma.com", {
+      await fetch("https://formsubmit.co/prateeksaraswat2010@gmail.com", {
         method: "POST",
         body: formData,
       });
@@ -30,7 +30,7 @@ const Contact = () => {
           name="description"
           content="Contact BuildSigma for IT consulting, web & mobile development, AI solutions, and more. Get in touch with our expert team today."
         />
-        <link rel="canonical" href="https://www.yourdomain.com/contact" />
+        <link rel="canonical" href="https://www.buildsigma.com/contact" />
       </Helmet>
 
       <h2 className="text-4xl font-bold text-center mb-6 text-white">
@@ -62,6 +62,11 @@ const Contact = () => {
         className="max-w-3xl mx-auto grid gap-6 bg-gray-800 p-10 rounded-3xl shadow-xl text-gray-100"
       >
         <input type="hidden" name="_captcha" value="false" />
+        <input
+          type="hidden"
+          name="_cc"
+          value="saraswatharsh.9977@gmail.com"
+        />
         <input
           type="text"
           name="name"

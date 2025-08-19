@@ -67,12 +67,12 @@ const Technologies = () => {
     <section className="py-22 bg-black text-white" id="technologies">
       {/* SEO Metadata */}
       <Helmet>
-        <title>BuildSigma Technologies | Web, Mobile, Database & CMS Tools</title>
+        <title>Technologies | Web, Mobile, Database & CMS Tools</title>
         <meta
           name="description"
           content="Discover the technologies used by BuildSigma, including React, Node.js, Express, Laravel, PHP, MongoDB, MySQL, WordPress, Flutter, Kotlin, Swift, and more for web, mobile, and cloud solutions."
         />
-        <link rel="canonical" href="https://www.yourdomain.com/technologies" />
+        <link rel="canonical" href="https://www.buildsigma.com/technologies" />
       </Helmet>
 
       <h2 className="text-3xl font-bold text-center mb-4">🚀 Technologies We Use</h2>

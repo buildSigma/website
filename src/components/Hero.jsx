@@ -15,6 +15,8 @@ const Hero = () => {
           name="description"
           content="BuildSigma creates innovative web apps, mobile solutions, and cloud services that drive growth and efficiency for your business."
         />
+        <link rel="canonical" href="https://www.buildsigma.com/" />
+
       </Helmet>
 
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">

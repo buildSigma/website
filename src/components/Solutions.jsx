@@ -44,7 +44,7 @@ const Solutions = () => {
           name="description"
           content="Explore BuildSigma's solutions including custom software development, QA, support & maintenance, DevOps & automation, cloud migration, and business architecture."
         />
-        <link rel="canonical" href="https://www.yourdomain.com/solutions" />
+        <link rel="canonical" href="https://www.buildsigma.com/solutions" />
       </Helmet>
 
       <h2 className="text-4xl font-bold text-center mb-16 text-white">

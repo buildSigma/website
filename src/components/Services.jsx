@@ -29,7 +29,7 @@ const Services = () => {
           name="description"
           content="Explore BuildSigma's expert services in product development, AI & automation, digital marketing, consulting, cloud solutions, and cybersecurity. Delivering innovative, scalable, and secure business solutions."
         />
-        <link rel="canonical" href="https://www.yourdomain.com/services" />
+        <link rel="canonical" href="https://www.buildsigma.com/services" />
       </Helmet>
 
       {/* Background Video */}
