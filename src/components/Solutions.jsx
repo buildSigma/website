@@ -39,7 +39,7 @@ const Solutions = () => {
   return (
     <section className="py-22 px-6 bg-black" id="solutions">
       <Helmet>
-        <title>BuildSigma Solutions | Software Development, Cloud, DevOps & Automation</title>
+        <title>Solutions | Software Development, Cloud, DevOps & Automation</title>
         <meta
           name="description"
           content="Explore BuildSigma's solutions including custom software development, QA, support & maintenance, DevOps & automation, cloud migration, and business architecture."

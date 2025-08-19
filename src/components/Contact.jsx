@@ -25,7 +25,7 @@ const Contact = () => {
   return (
     <section className="py-32 px-6 bg-black text-white">
       <Helmet>
-        <title>BuildSigma | Get in Touch</title>
+        <title>Contact| Get in Touch</title>
         <meta
           name="description"
           content="Contact BuildSigma for IT consulting, web & mobile development, AI solutions, and more. Get in touch with our expert team today."

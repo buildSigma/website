@@ -24,7 +24,7 @@ const Services = () => {
   return (
     <section className="relative py-32 px-6 overflow-hidden" id="services">
       <Helmet>
-        <title>BuildSigma Services | Web, App, AI, Cloud & Cybersecurity Solutions</title>
+        <title>Services | Web, App, AI, Cloud & Cybersecurity Solutions</title>
         <meta
           name="description"
           content="Explore BuildSigma's expert services in product development, AI & automation, digital marketing, consulting, cloud solutions, and cybersecurity. Delivering innovative, scalable, and secure business solutions."
