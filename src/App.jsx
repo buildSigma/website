@@ -1,5 +1,3 @@
-// App.jsx
-import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -14,23 +12,32 @@ const App = () => {
   return (
     <Router>
       <Navbar />
+
       <Routes>
-        {/* Only homepage route */}
+        {/* Homepage with all sections */}
         <Route
           path="/"
           element={
             <>
-              <Hero id="home" />
+              <Hero id="hero" />
               <Services id="services" />
               <Solutions id="solutions" />
               <Technologies id="technologies" />
-              <AboutUs id="about" />
-              <Contact id="contact" />
-              <Footer />
+              <AboutUs id="about" />      {/* Added back */}
+              <Contact id="contact" />    {/* Added back */}
             </>
           }
         />
+
+        {/* Separate pages for SEO */}
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/solutions" element={<Solutions />} />
+        <Route path="/technologies" element={<Technologies />} />
       </Routes>
+
+      <Footer />
     </Router>
   );
 };
