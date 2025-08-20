@@ -23,7 +23,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-32 px-6 bg-black text-white">
+    <section id="contact" className="py-32 px-6 bg-black text-white">
       <Helmet>
   {/* Title for SEO */}
   <title>Contact BuildSigma | IT Consulting & Web Solutions Partner</title>

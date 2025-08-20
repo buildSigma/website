@@ -27,7 +27,7 @@ const highlights = [
 
 const AboutUs = () => {
   return (
-    <section className="py-23 px-6 bg-black text-white" id="aboutus">
+    <section className="py-23 px-6 bg-black text-white" id="about">
       {/* SEO Metadata */}
       <Helmet>
   <title>About BuildSigma | Web Solutions Consultancy & IT Experts</title>
