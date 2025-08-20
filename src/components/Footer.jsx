@@ -28,12 +28,16 @@ const Footer = () => {
         </div>
 
         {/* Contact Info */}
-        <div>
-          <h3 className="text-lg font-semibold text-white mb-3">Contact Us</h3>
-          <p className="text-sm">📍D-24, Sector 9, Ghaziabad, Uttar Pradesh, India</p>
-          <p className="text-sm mt-2">📞 +91-9654687526</p>
-          <p className="text-sm mt-2">✉️ <a href="mailto:contact@buildsigma.com" className="hover:text-blue-400">contact@buildsigma.com</a></p>
-        </div>
+       <div>
+  <h3 className="text-lg font-semibold text-white mb-3">Contact Us</h3>
+  <p className="text-sm">📍D-24, Sector 9, Ghaziabad, Uttar Pradesh, India</p>
+  <p className="text-sm">📌 PIN Code: 201009</p>
+  <p className="text-sm mt-2">📞 +91-9654687526</p>
+  <p className="text-sm mt-2">
+    ✉️ <a href="mailto:contact@buildsigma.com" className="hover:text-blue-400">work@buildsigma.com</a>
+  </p>
+</div>
+
       </div>
 
       {/* Bottom Line */}
