@@ -23,8 +23,8 @@ const App = () => {
               <Services id="services" />
               <Solutions id="solutions" />
               <Technologies id="technologies" />
-              <AboutUs id="about" />      {/* Added back */}
-              <Contact id="contact" />    {/* Added back */}
+              <AboutUs id="about" />      
+              <Contact id="contact" />    
             </>
           }
         />

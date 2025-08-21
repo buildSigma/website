@@ -43,7 +43,7 @@ const Hero = () => {
 </Helmet>
 
 
-      <div className="max-w-7xl ml-5 md:ml-9 mx-auto flex flex-col md:flex-row items-center gap-16">
+      <div className="max-w-7xl ml-5 md:ml-9 mx-auto flex flex-col md:flex-row items-center gap-16 ">
         {/* Text Content */}
         <div className="md:w-1/2 space-y-6 order-2 md:order-1">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
@@ -56,13 +56,13 @@ const Hero = () => {
             {/* Router Links */}
             <Link
               to="/contact"
-              className="bg-yellow-500 text-black font-bold px-8 py-3 rounded-full shadow-lg hover:scale-105 transform transition"
+              className="bg-yellow-500 z-50 cursor-pointer text-black font-bold px-8 py-3 rounded-full shadow-lg hover:scale-105 transform transition"
             >
               Contact Us
             </Link>
             <Link
               to="/services"
-              className="border border-yellow-500 text-yellow-500 font-bold px-8 py-3 rounded-full hover:bg-yellow-500 hover:text-black transition"
+              className="border cursor-pointer border-yellow-500 text-yellow-500 font-bold px-8 py-3 rounded-full hover:bg-yellow-500 hover:text-black transition"
             >
               Our Services
             </Link>
